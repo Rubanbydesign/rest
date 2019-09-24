@@ -2,7 +2,7 @@
 
 package rest
 
-import "github.com/bradberger/context"
+import "github.com/rubanbydesign/context"
 
 // NewTestContext returns a new context suitable for testing. Outside of appengine,
 // this is just a fresh background context

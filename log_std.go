@@ -3,7 +3,7 @@
 package rest
 
 import (
-	"github.com/bradberger/context"
+	"github.com/rubanbydesign/context"
 
 	log "github.com/sirupsen/logrus"
 )

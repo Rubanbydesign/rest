@@ -3,10 +3,10 @@
 package cache
 
 import (
-	"github.com/bradberger/context"
-	"github.com/bradberger/gocache"
-	"github.com/bradberger/gocache/cache"
-	"github.com/bradberger/gocache/drivers/lru"
+	"github.com/rubanbydesign/context"
+	"github.com/rubanbydesign/gocache"
+	"github.com/rubanbydesign/gocache/cache"
+	"github.com/rubanbydesign/gocache/drivers/lru"
 )
 
 type CacheDriver int

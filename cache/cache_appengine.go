@@ -3,17 +3,17 @@
 package cache
 
 import (
-    "github.com/bradberger/context"
-    "github.com/bradberger/gocache/cache"
-    "github.com/bradberger/gocache/codec"
-    "github.com/bradberger/gocache/drivers/appengine/memcache"
+	"github.com/rubanbydesign/context"
+	"github.com/rubanbydesign/gocache/cache"
+	"github.com/rubanbydesign/gocache/codec"
+	"github.com/rubanbydesign/gocache/drivers/appengine/memcache"
 )
 
 var (
-    Codec = codec.Gob    
+	Codec = codec.Gob
 )
 
 func New(ctx context.Context) cache.Cache {
-    memcache.Codec = Codec
-    return memcache.New(ctx)
+	memcache.Codec = Codec
+	return memcache.New(ctx)
 }

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/bradberger/context"
-	"github.com/bradberger/rest"
+	"github.com/rubanbydesign/context"
+	"github.com/rubanbydesign/rest"
 
 	"github.com/gorilla/securecookie"
 )

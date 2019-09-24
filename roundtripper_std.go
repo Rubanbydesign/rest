@@ -5,7 +5,7 @@ package rest
 import (
 	"net/http"
 
-	"github.com/bradberger/context"
+	"github.com/rubanbydesign/context"
 )
 
 // TestClient creates a http.Client which will return the given response
